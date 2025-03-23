@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+class Car {
+public:
+    
+    string color;
+    int speed;
+
+    
+    void drive() {
+        cout << "The " << color << " car is going at " << speed << " km/h." << endl;
+    }
+};
+
+int main() {
+    
+    Car myCar;
+
+    
+    myCar.color = "red";
+    myCar.speed = 100;
+
+    
+    myCar.drive();
+
+    return 0;
+}
+
